@@ -11,10 +11,14 @@ export default defineConfig((/* ctx */) => {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-vite/boot-files
-    boot: [],
+    boot: ['i18n'],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#css
     css: ['app.scss'],
+    // 🔽🔽 ADD THIS BLOCK RIGHT HERE 🔽🔽
+    iconGen: {
+      icon: 'src/assets/images/logo2.png',
+    },
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [

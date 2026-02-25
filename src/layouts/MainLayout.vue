@@ -185,7 +185,7 @@ watch(
 .brand-title {
   font-weight: bold;
   font-family: var(--font-brand);
-  font-size: 1.2rem;
+  font-size: 1.8rem; /* increase title size */
   letter-spacing: 0.04em;
   color: #ae0b0b;
 }
